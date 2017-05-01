@@ -15,8 +15,9 @@ The project interface includes three navbar tabs: "Census Data", "Maps" and "Vot
 
 
 #### Maps:
-There are three different maps included in our prototype. One map for census data, one map that maps voters to their city of residence, and one map that maps voters to the dropoff location of their ballot. 
+There are three different maps included in our prototype. One map for census data, one map that maps voters to their city of residence, and one map that maps voters to the dropoff location of their ballot.
 
+![Interface](https://github.com/usfviz/DataViz-ciCode-/blob/master/screen-shots/censusMap.png "Interface Proto-Type")
 
 #### Census Data: 
 Bubble chart, scatter plot, parallel coordinate plot, and network diagram comparing different census attributes. Each graph is interactive with whatever variables the user chooses to select. The network diagram compares a voters residence city to the city in which they dropped off their ballot.
