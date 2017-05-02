@@ -7,6 +7,42 @@ Melanie Palmer, mapalmer2@usfca.edu
 ### Description of dataset:
 Los Angeles County Voter data (including dropoff location, distance traveled, duration, etc.) combined with census data (lanugage, gender, income, education, etc.)
 
+### Included Packages: 
+The packages we used are 
+# shiny
+```
+shiny
+shinythemes
+```
+# data wrangling
+```
+tidyr
+dplyr
+```
+# mapping
+```
+leaflet
+sp
+tigris
+acs
+tigris
+```
+# plotting
+```
+plotly
+shiny
+ggplot2
+RColorBrewer
+GGally
+networkD3
+igraph
+```
+# misc
+```
+stringr
+```
+
+
 ### Prototype Description: 
 #### Interface:
 The project interface includes three navbar tabs: "Census Data", "Maps" and "Voter Information". The "Census Data" tab includes different graphical representations of the census data included in our analysis. The "Maps" tabs contains maps that depict the voter information combined with the census data, and the "Voter Information" tab has links to websites with information for voters. 
