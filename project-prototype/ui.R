@@ -10,7 +10,7 @@ ui <- tagList(
              "LA County Voters",
              tabPanel("Census Data",
                       conditionalPanel("input.conditionedPanels==1",
-                                       sidebarPanel(width = 3,
+                                       sidebarPanel(width = 4,
                                                     selectInput("x_axis", "Select X Axis", 
                                                                 colnames(census), selected = "language"),
                                                     selectInput("y_axis", "Select Y Axis", 
@@ -18,11 +18,12 @@ ui <- tagList(
                                                     selectInput("color", "Select color variable", 
                                                                 factor_names, selected = "gender"),
                                                     selectInput("size", "Select size variable", 
-                                                                factor_names, selected = "language"))
+                                                                factor_names, selected = "language"),
+                                       strong("Hover over plot for additional information"))
                       ),
                       
                       conditionalPanel("input.conditionedPanels==2",
-                                       sidebarPanel(width = 3,
+                                       sidebarPanel(width = 4,
                                                     selectizeInput("scatter_cols", 
                                                                    "Select variables to plot", numeric_names,
                                                                    multiple = T, 
@@ -37,14 +38,23 @@ ui <- tagList(
                                                                    colnames(e), multiple = T,
                                                                    selected = c("Education..High.School.Diploma", 
                                                                                 "Education..Higher.Education.Degree",
-                                                                                "Education..No.Diploma.or.Degree"))
+                                                                                "Education..No.Diploma.or.Degree")),
+                                                    strong("We are interested in understanding how demographic information 
+                                                            corresponds to voting behaviour. 
+                                                            As a first step, we non-parametrically split voters into 
+                                                            what we determined to be 12 distinct groups using census 
+                                                            block information
+                                                            and K-Means Clusterings. The clusters are repesented by the 
+                                                            different colored
+                                                            lines in the parallel coordinat plot")
+                                              
                                        )
                       ), 
                       conditionalPanel("input.conditionedPanels==4",
                                        sidebarPanel(width = 4,
                                                     selectInput("city_subset", "Select city to subset by",
                                                                 total$city, multiple = T,
-                                                                selected = c("PASADENA"))
+                                                                selected = c("ALHAMBRA"))
                                        )
                       ),
                       
