@@ -30,7 +30,7 @@ server <-  function(input, output) {
         }
       }
     } else{
-      cat("Additional Information from Hover")
+      cat(" ")
     }
   })
   
