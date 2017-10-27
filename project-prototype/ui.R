@@ -78,12 +78,6 @@ ui <- tagList(
                       )
              ),
              
-             ##############################################
-             # MATT FILL IN YOUR MAP UI STUFF HERE        #
-             # FILL FREE TO CHANGE BUT MAKE SURE YOU KEEP #
-             # THE ORIGINAL TABPANEL RIGTH BELOW THIS     #
-             # i.e. tabPanel("Maps", . . .)               #
-             ##############################################
              
              
              tabPanel("Maps",
