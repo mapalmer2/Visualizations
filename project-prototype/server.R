@@ -716,9 +716,6 @@ server <-  function(input, output) {
   
 
   
-  ##################################
-  # MATT ADD RENDER MAP STUFF HERE #
-  ##################################
   
   
   
