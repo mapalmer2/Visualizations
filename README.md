@@ -1,8 +1,3 @@
-## Data Viz-Ci Code
-
-### Team Members:
-Matt McClelland, mkmcclelland@usfca.edu; 
-Melanie Palmer, mapalmer2@usfca.edu
 
 ### Description of dataset:
 Los Angeles County Voter data (including dropoff location, distance traveled, duration, etc.) combined with census data (lanugage, gender, income, education, etc.)
